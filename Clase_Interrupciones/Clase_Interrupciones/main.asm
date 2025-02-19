@@ -1,0 +1,59 @@
+;
+; Clase_Interrupciones.asm
+;
+; Created: 2/13/2025 3:12:02 PM
+; Author : oscar
+;
+
+.include "M328PDEF.inc"
+.cseg
+.org 0x0000
+	JMP START
+.org 0x0020
+	JMP TMR0_ISR
+START:
+// Configuraci n de la pila?
+	LDI R16, LOW(RAMEND)
+	OUT SPL, R16
+	LDI R16, HIGH(RAMEND)
+	OUT SPH, R16
+
+SETUP:
+	CLI
+	LDI R16, (1 << CLKPCE)
+	STS CLKPCE, R16
+	LDI R16, 0b00000100
+	STS CLKPR,R16
+
+
+	LDI R16,(1 << CS01)|(1 << CS00)
+	OUT TCCR0B, R16
+	LDI R16,100
+	OUT TCNT0, R16
+
+	LDI R16, (1 << TOIE0)
+	STS TIMSK0, R16
+
+	SBI DDRB,PB5
+	SBI DDRB,PB0
+	LDI R16, (1 << PB5)|(1 << PB0)
+	LDI R20,0
+	
+
+; Replace with your application code
+MAIN_LOOP:
+	CPI R20, 50
+	BRNE MAIN_LOOP
+	CLR R20
+	SBI PINB,PB5
+	SBI PINB,PB0
+	RJMP MAIN_LOOP
+
+
+TMR0_ISR:
+		LDI R16, 100
+		OUT TCNT0, R16
+		INC R20
+RETI
+
+

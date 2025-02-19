@@ -1,10 +1,10 @@
 
-AVRASM ver. 2.2.8  C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_23068\Prelab2_micros_23068\main.asm Tue Feb 11 17:56:24 2025
+AVRASM ver. 2.2.8  C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm Tue Feb 11 18:54:01 2025
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc'
-C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_23068\Prelab2_micros_23068\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.INC'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.INC'
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc'
-C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_23068\Prelab2_micros_23068\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.INC'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.INC'
                                  
                                  ;
                                  
@@ -987,9 +987,9 @@ C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_2306
                                  
                                  ; ***** END OF FILE ******************************************************
                                  
-                                 ; Prelab2_micros_23068.asm
+                                 ; Pruebas_Display.asm
                                  ;
-                                 ; Created: 2/6/2025 1:25:25 PM
+                                 ; Created: 2/10/2025 11:05:55 PM
                                  ; Author : oscar
                                  ;
                                  
@@ -1040,74 +1040,129 @@ C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_2306
                                  .CSEG
                                  .ORG 0x00
                                  
-000000 053f
-000001 4f5b
-000002 6e65
-000003 077e
-000004 677f
-000005 7f77
-000006 3f3a
-000007 727a                      DIS: .DB 0x3F,0x05,0x5B,0x4F,0x65,0x6E,0x7E,0x07,0x7F,0x67,0x77,0x7F,0x3A,0x3F,0x7A,0x72
-                                 
                                  //Configuración de la pila
-000008 ef0f                      LDI R16, LOW(RAMEND)
-000009 bf0d                      OUT SPL, R16 // Cargar 0xff a SPL
-00000a e008                      LDI R16, HIGH(RAMEND)
-00000b bf0e                      OUT SPH, R16 // Cargar 0x08 a SPH
+000000 ef0f                      LDI R16, LOW(RAMEND)
+000001 bf0d                      OUT SPL, R16 // Cargar 0xff a SPL
+000002 e008                      LDI R16, HIGH(RAMEND)
+000003 bf0e                      OUT SPH, R16 // Cargar 0x08 a SPH
                                  
-                                 // Configuracion de MCU
+                                 // Configuraci n de MCU?
                                  SETUP:
-                                 	// Configurar Prescaler "Principal"
-00000c e800                      	LDI R16, (1 << CLKPCE)
-00000d 9300 0061                 	STS CLKPR, R16 // Habilitar cambio de PRESCALER
-00000f e004                      	LDI R16, 0x04
-000010 9300 0061                 	STS CLKPR, R16 // Configurar Prescaler a 16 F_cpu = 1MHz
-000012 940e 0034                 	CALL INIT_TMR0
-                                 	//Configuracion de Puertos
-000014 ef0f                      	LDI R16,0xFF
-000015 b90a                      	OUT DDRD, R16
-000016 b904                      	OUT DDRB, R16
-000017 e000                      	LDI R16, 0x00
-000018 b907                      	OUT DDRC, R16
-000019 b90b                      	OUT PORTD, R16
-00001a b905                      	OUT PORTB, R16
-00001b 9300 00c1                 	STS UCSR0B, R16
+000004 e000                      LDI R16, 0x00
+000005 9300 00c1                 STS UCSR0B, R16
+000007 b907                      OUT DDRC, R16		//configura las entradas
+000008 ef0f                      LDI R16, 0xFF
+000009 b908                      OUT PORTC, R16
+00000a b904                      OUT DDRB, R16
+00000b b90a                      OUT DDRD, R16
+00000c e004                      LDI R16, 0x04
+00000d 9300 0061                 STS CLKPR, R16 // Configurar Prescaler a 16 F_cpu = 1MHz
                                  
-                                 // Definimos valores
-00001d e020                      	LDI R18,0x00
-00001e e03f                      	LDI R19,0x0F
-00001f e040                      	LDI R20, 0x00
+                                 //Leer botones
+00000f e000                      LDI R16,0x00
                                  
+                                 //contadores
+000010 e010                      LDI R17,0x00
+000011 e020                      LDI R18,0x00
                                  
+                                 //Estado inicial de los botones
+000012 e75f                      LDI R21,0x7F
                                  
-                                 //bucle 
-                                 MAIN_LOOP:
-000020 b925                      	OUT PORTB, R18
-000021 b305                      	IN R16, TIFR0 // Leer registro de interrupci n de TIMER 0?
-000022 ff00                      	SBRS R16, TOV0 // Salta si el bit 0 est "set" (TOV0 bit)?
-000023 cffc                      	RJMP MAIN_LOOP // Reiniciar loop
-000024 9aa8                      	SBI TIFR0, TOV0 // Limpiar bandera de "overflow"
-000025 e604                      	LDI R16, 100
-000026 bd06                      	OUT TCNT0, R16 // Volver a cargar valor inicial en TCNT0
-000027 9543                      	INC R20
-000028 304a                      	CPI R20, 10 // R20 = 10 after 100ms (since TCNT0 is set to 10 ms)
-000029 f7b1                      	BRNE MAIN_LOOP
-00002a 2744                      	CLR R20
-00002b 1723                      	CP R18, R19
-00002c f019                      	BRBS 1, OVERFLOW
-00002d 9523                      	INC R18
-00002e 940c 0020                 	JMP MAIN_LOOP
+                                 //Salidas display
+000013 053f
+000014 4f5b
+000015 6e65
+000016 077e
+000017 677f
+000018 7f77
+000019 3f3a
+00001a 727a                      DIS: .DB 0x3F,0x05,0x5B,0x4F,0x65,0x6E,0x7E,0x07,0x7F,0x67,0x77,0x7F,0x3A,0x3F,0x7A,0x72
+                                 
+                                 ; Replace with your application code
+                                 INICIO:
+00001b e0f0                      	LDI ZH, HIGH(DIS << 1)
+00001c e2e6                      	LDI ZL, LOW(DIS << 1)
+00001d 0fe1                      	ADD ZL,R17
+00001e 9164                      	LPM R22, Z
+00001f b96b                      	OUT PORTD, R22
+000020 b106                      	IN R16, PINC
+000021 1750                      	CP R21,R16
+000022 f3c1                      	BREQ INICIO
+000023 940e 004d                 	CALL DELAY
+000025 b106                      	IN R16, PINC
+000026 1750                      	CP R21,R16
+000027 f399                      	BREQ INICIO
+000028 940e 004d                 	CALL DELAY
+00002a b106                      	IN R16, PINC
+00002b 1750                      	CP R21,R16
+00002c 2f50                      	MOV R21,R16
+00002d 9b30                      	SBIS PINC,0
+00002e 940c 0039                 	JMP RS1
+000030 9b31                      	SBIS PINC,1
+000031 940c 0043                 	JMP RR1
+000033 940c 001b                 	JMP INICIO
                                  
                                  OVERFLOW:
-000030 e020                      	LDI R18,0x00
-000031 b925                      	OUT PORTB, R18
-000032 940c 0020                 	JMP MAIN_LOOP
+000035 e020                      	LDI R18,0x00
+000036 b925                      	OUT PORTB, R18
+000037 940c 001b                 	JMP INICIO	
+                                 
+                                 RS1:
+000039 301f                      	CPI R17,0x0F
+00003a f011                      	BREQ OVERF1
+00003b 940c 0040                 	JMP suma
+                                 
+                                 OVERF1:
+00003d ef1f                      	LDI R17, 0xFF
+00003e 940c 0040                 	JMP suma
+                                 
+                                 suma:
+000040 9513                      	INC R17
+000041 940c 001b                 	JMP inicio
+                                 
+                                 RR1:
+000043 3010                      	CPI R17, 0x00
+000044 f011                      	BREQ UNDERF1
+000045 940c 004a                 	JMP resta
+                                 
+                                 UNDERF1:
+000047 e110                      	LDI R17,0x10
+000048 940c 004a                 	JMP resta
+                                 
+                                 resta:
+00004a 951a                      	DEC R17
+00004b 940c 001b                 	JMP INICIO
+                                 
+                                 DELAY:
+00004d e0f0                      	LDI R31,0x00
+                                 	subdelay1:
+00004e 95f3                      	INC R31
+00004f 30f0                      	CPI R31,0x00
+000050 f7e9                      	BRNE subdelay1
+000051 e0f0                      	LDI R31,0x00
+                                 	subdelay2:
+000052 95f3                      	INC R31
+000053 30f0                      	CPI R31,0x00
+000054 f7e9                      	BRNE subdelay2
+000055 e0f0                      	LDI R31,0x00
+                                 	subdelay3:
+000056 95f3                      	INC R31
+000057 30f0                      	CPI R31,0x00
+000058 f7e9                      	BRNE subdelay3
+000059 e0f0                      	LDI R31,0x00
+                                 	subdelay4:
+00005a 95f3                      	INC R31
+00005b 30f0                      	CPI R31,0x00
+00005c f7e9                      	BRNE subdelay4
+00005d 9508                      RET
+                                 
                                  
                                  INIT_TMR0:
-000034 e003                      	LDI R16, (1<<CS01) | (1<<CS00)
-000035 bd05                      	OUT TCCR0B, R16 // Setear prescaler del TIMER 0 a 64
-000036 e604                      	LDI R16, 100
-000037 bd06                      	OUT TCNT0, R16 // Cargar valor inicial en TCNT0
+00005e e003                      	LDI R16, (1<<CS01) | (1<<CS00)
+00005f bd05                      	OUT TCCR0B, R16 // Setear prescaler del TIMER 0 a 64
+000060 e604                      	LDI R16, 100
+000061 bd06                      	OUT TCNT0, R16 // Cargar valor inicial en TCNT0
+000062 9508                      	RET
 
 
 RESOURCE USE INFORMATION
@@ -1125,39 +1180,39 @@ counted separately from r26..r31 here.
 .dseg memory usage only counts static data declared with .byte
 
 "ATmega328P" register use summary:
-x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
+x  :   0 y  :   0 z  :   1 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  24 r17:   0 r18:   6 r19:   2 r20:   4 
-r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   0 r27:   0 r28:   0 
-r29:   0 r30:   0 r31:   0 
-Registers used: 4 out of 35 (11.4%)
+r13:   0 r14:   0 r15:   0 r16:  25 r17:   8 r18:   3 r19:   0 r20:   0 
+r21:   5 r22:   2 r23:   0 r24:   0 r25:   0 r26:   0 r27:   0 r28:   0 
+r29:   0 r30:   2 r31:  13 
+Registers used: 8 out of 35 (22.9%)
 
 "ATmega328P" instruction use summary:
-.lds  :   0 .sts  :   0 adc   :   0 add   :   0 adiw  :   0 and   :   0 
-andi  :   0 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   1 
-brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0 
+.lds  :   0 .sts  :   0 adc   :   0 add   :   1 adiw  :   0 and   :   0 
+andi  :   0 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
+brcc  :   0 brcs  :   0 break :   0 breq  :   4 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
-brne  :   1 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
-brvs  :   0 bset  :   0 bst   :   0 call  :   1 cbi   :   0 cbr   :   0 
-clc   :   0 clh   :   0 cli   :   0 cln   :   0 clr   :   1 cls   :   0 
-clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   1 cpc   :   0 
-cpi   :   1 cpse  :   0 dec   :   0 eor   :   0 fmul  :   0 fmuls :   0 
-fmulsu:   0 icall :   0 ijmp  :   0 in    :   1 inc   :   2 jmp   :   2 
-ld    :   0 ldd   :   0 ldi   :  13 lds   :   0 lpm   :   0 lsl   :   0 
-lsr   :   0 mov   :   0 movw  :   0 mul   :   0 muls  :   0 mulsu :   0 
-neg   :   0 nop   :   0 or    :   0 ori   :   0 out   :  12 pop   :   0 
-push  :   0 rcall :   0 ret   :   1 reti  :   0 rjmp  :   1 rol   :   0 
-ror   :   0 sbc   :   0 sbci  :   0 sbi   :   1 sbic  :   0 sbis  :   0 
-sbiw  :   0 sbr   :   0 sbrc  :   0 sbrs  :   1 sec   :   0 seh   :   0 
+brne  :   4 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
+brvs  :   0 bset  :   0 bst   :   0 call  :   2 cbi   :   0 cbr   :   0 
+clc   :   0 clh   :   0 cli   :   0 cln   :   0 clr   :   0 cls   :   0 
+clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   3 cpc   :   0 
+cpi   :   6 cpse  :   0 dec   :   1 eor   :   0 fmul  :   0 fmuls :   0 
+fmulsu:   0 icall :   0 ijmp  :   0 in    :   3 inc   :   5 jmp   :  10 
+ld    :   0 ldd   :   0 ldi   :  20 lds   :   0 lpm   :   2 lsl   :   0 
+lsr   :   0 mov   :   1 movw  :   0 mul   :   0 muls  :   0 mulsu :   0 
+neg   :   0 nop   :   0 or    :   0 ori   :   0 out   :  10 pop   :   0 
+push  :   0 rcall :   0 ret   :   2 reti  :   0 rjmp  :   0 rol   :   0 
+ror   :   0 sbc   :   0 sbci  :   0 sbi   :   0 sbic  :   0 sbis  :   2 
+sbiw  :   0 sbr   :   0 sbrc  :   0 sbrs  :   0 sec   :   0 seh   :   0 
 sei   :   0 sen   :   0 ser   :   0 ses   :   0 set   :   0 sev   :   0 
-sez   :   0 sleep :   0 spm   :   0 st    :   0 std   :   0 sts   :   3 
+sez   :   0 sleep :   0 spm   :   0 st    :   0 std   :   0 sts   :   2 
 sub   :   0 subi  :   0 swap  :   0 tst   :   0 wdr   :   0 
-Instructions used: 16 out of 113 (14.2%)
+Instructions used: 17 out of 113 (15.0%)
 
 "ATmega328P" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000072     98     16    114   32768   0.3%
+[.cseg] 0x000000 0x0000c6    182     16    198   32768   0.6%
 [.dseg] 0x000100 0x000100      0      0      0    2048   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    1024   0.0%
 

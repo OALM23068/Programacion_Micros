@@ -1,12 +1,12 @@
 
-AVRASM ver. 2.2.8  C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_23068\Prelab2_micros_23068\main.asm Tue Feb 11 17:56:24 2025
+AVRASM ver. 2.2.8  C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prelab3_23068\prelab3_23068\main.asm Tue Feb 18 23:05:14 2025
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc'
-C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_23068\Prelab2_micros_23068\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.INC'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prelab3_23068\prelab3_23068\main.asm(1): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc'
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc'
-C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_23068\Prelab2_micros_23068\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.INC'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prelab3_23068\prelab3_23068\main.asm(1): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc'
                                  
-                                 ;
+                                 .include "M328PDEF.inc"
                                  
                                  ;***** Created: 2011-02-09 12:03 ******* Source: ATmega328P.xml **********
                                  ;*************************************************************************
@@ -987,13 +987,6 @@ C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_2306
                                  
                                  ; ***** END OF FILE ******************************************************
                                  
-                                 ; Prelab2_micros_23068.asm
-                                 ;
-                                 ; Created: 2/6/2025 1:25:25 PM
-                                 ; Author : oscar
-                                 ;
-                                 
-                                 .INCLUDE "M328PDEF.INC"
                                  
                                  ;***** Created: 2011-02-09 12:03 ******* Source: ATmega328P.xml **********
                                  ;*************************************************************************
@@ -1037,77 +1030,74 @@ C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_2306
                                  #endif  /* _M328PDEF_INC_ */
                                  
                                  ; ***** END OF FILE ******************************************************
-                                 .CSEG
-                                 .ORG 0x00
+                                 .cseg
+                                 .org 0x0000
+000000 940c 000a                 	JMP START
+                                 .org 0x0008
+000008 940c 0035                 	JMP PINCHANGEC_ISR
                                  
-000000 053f
-000001 4f5b
-000002 6e65
-000003 077e
-000004 677f
-000005 7f77
-000006 3f3a
-000007 727a                      DIS: .DB 0x3F,0x05,0x5B,0x4F,0x65,0x6E,0x7E,0x07,0x7F,0x67,0x77,0x7F,0x3A,0x3F,0x7A,0x72
+                                 START:
+                                 // Configuraci n de la pila?
+00000a ef0f                      	LDI R16, LOW(RAMEND)
+00000b bf0d                      	OUT SPL, R16
+00000c e008                      	LDI R16, HIGH(RAMEND)
+00000d bf0e                      	OUT SPH, R16	
                                  
-                                 //Configuración de la pila
-000008 ef0f                      LDI R16, LOW(RAMEND)
-000009 bf0d                      OUT SPL, R16 // Cargar 0xff a SPL
-00000a e008                      LDI R16, HIGH(RAMEND)
-00000b bf0e                      OUT SPH, R16 // Cargar 0x08 a SPH
-                                 
-                                 // Configuracion de MCU
                                  SETUP:
-                                 	// Configurar Prescaler "Principal"
-00000c e800                      	LDI R16, (1 << CLKPCE)
-00000d 9300 0061                 	STS CLKPR, R16 // Habilitar cambio de PRESCALER
-00000f e004                      	LDI R16, 0x04
-000010 9300 0061                 	STS CLKPR, R16 // Configurar Prescaler a 16 F_cpu = 1MHz
-000012 940e 0034                 	CALL INIT_TMR0
-                                 	//Configuracion de Puertos
-000014 ef0f                      	LDI R16,0xFF
-000015 b90a                      	OUT DDRD, R16
-000016 b904                      	OUT DDRB, R16
-000017 e000                      	LDI R16, 0x00
-000018 b907                      	OUT DDRC, R16
-000019 b90b                      	OUT PORTD, R16
-00001a b905                      	OUT PORTB, R16
-00001b 9300 00c1                 	STS UCSR0B, R16
-                                 
-                                 // Definimos valores
-00001d e020                      	LDI R18,0x00
-00001e e03f                      	LDI R19,0x0F
-00001f e040                      	LDI R20, 0x00
+00000e 94f8                      	CLI
+00000f e800                      	LDI R16, (1 << CLKPCE)
+000010 9300 0061                 	STS CLKPR, R16
+000012 e004                      	LDI R16, 0b00000100
+000013 9300 0061                 	STS CLKPR,R16
                                  
                                  
+000015 e002                      	LDI R16, (1 << PCIE1)
+000016 9300 0068                 	STS PCICR, R16
+000018 e003                      	LDI R16, (1 << PCINT9)|(1 << PCINT8)
+000019 9300 006c                 	STS PCMSK1, R16
                                  
-                                 //bucle 
+                                 	
+00001b e000                      	LDI R16,0x00
+00001c b90b                      	OUT PORTD, R16
+00001d b905                      	OUT PORTB, R16
+00001e 9300 00c1                 	STS UCSR0B, R16
+000020 b907                      	OUT DDRC,R16
+000021 ef0f                      	LDI R16,0xFF
+000022 b908                      	OUT PORTC, R16
+000023 b904                      	OUT DDRB,R16
+000024 b90a                      	OUT DDRD, R16
+000025 b90b                      	OUT PORTD,R16
+                                 	
+000026 9478                      	SEI
+                                 
+                                 //Contador
+000027 e000                      	LDI R16,0x00
+000028 e010                      	LDI R17,0x00
+                                 
+                                 ; Replace with your application code
                                  MAIN_LOOP:
-000020 b925                      	OUT PORTB, R18
-000021 b305                      	IN R16, TIFR0 // Leer registro de interrupci n de TIMER 0?
-000022 ff00                      	SBRS R16, TOV0 // Salta si el bit 0 est "set" (TOV0 bit)?
-000023 cffc                      	RJMP MAIN_LOOP // Reiniciar loop
-000024 9aa8                      	SBI TIFR0, TOV0 // Limpiar bandera de "overflow"
-000025 e604                      	LDI R16, 100
-000026 bd06                      	OUT TCNT0, R16 // Volver a cargar valor inicial en TCNT0
-000027 9543                      	INC R20
-000028 304a                      	CPI R20, 10 // R20 = 10 after 100ms (since TCNT0 is set to 10 ms)
-000029 f7b1                      	BRNE MAIN_LOOP
-00002a 2744                      	CLR R20
-00002b 1723                      	CP R18, R19
-00002c f019                      	BRBS 1, OVERFLOW
-00002d 9523                      	INC R18
-00002e 940c 0020                 	JMP MAIN_LOOP
+000029 940e 0030                 	CALL DELAY
+00002b b116                      	IN R17, PINC
+00002c 7f10                      	ANDI R17, 0xF0
+00002d 0f10                      	ADD R17, R16
+00002e b915                      	OUT PORTB, R17
+00002f cff9                      	RJMP MAIN_LOOP
                                  
-                                 OVERFLOW:
-000030 e020                      	LDI R18,0x00
-000031 b925                      	OUT PORTB, R18
-000032 940c 0020                 	JMP MAIN_LOOP
+                                 DELAY:
+000030 e0f0                      LDI R31,0x00
+                                 subdelay1:
+000031 95f3                      INC R31
+000032 30f0                      CPI R31,0x00
+000033 f7e9                      BRNE subdelay1
+000034 9508                      RET
                                  
-                                 INIT_TMR0:
-000034 e003                      	LDI R16, (1<<CS01) | (1<<CS00)
-000035 bd05                      	OUT TCCR0B, R16 // Setear prescaler del TIMER 0 a 64
-000036 e604                      	LDI R16, 100
-000037 bd06                      	OUT TCNT0, R16 // Cargar valor inicial en TCNT0
+                                 PINCHANGEC_ISR:
+000035 9b30                      	SBIS PINC,0
+000036 9503                      	INC R16
+000037 9b31                      	SBIS PINC,1
+000038 950a                      	DEC R16
+000039 700f                      	ANDI R16,0x0F
+00003a 9518                      RETI
 
 
 RESOURCE USE INFORMATION
@@ -1127,37 +1117,37 @@ counted separately from r26..r31 here.
 "ATmega328P" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  24 r17:   0 r18:   6 r19:   2 r20:   4 
+r13:   0 r14:   0 r15:   0 r16:  27 r17:   5 r18:   0 r19:   0 r20:   0 
 r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   0 r27:   0 r28:   0 
-r29:   0 r30:   0 r31:   0 
-Registers used: 4 out of 35 (11.4%)
+r29:   0 r30:   0 r31:   3 
+Registers used: 3 out of 35 (8.6%)
 
 "ATmega328P" instruction use summary:
-.lds  :   0 .sts  :   0 adc   :   0 add   :   0 adiw  :   0 and   :   0 
-andi  :   0 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   1 
+.lds  :   0 .sts  :   0 adc   :   0 add   :   1 adiw  :   0 and   :   0 
+andi  :   2 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
 brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
 brne  :   1 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
 brvs  :   0 bset  :   0 bst   :   0 call  :   1 cbi   :   0 cbr   :   0 
-clc   :   0 clh   :   0 cli   :   0 cln   :   0 clr   :   1 cls   :   0 
-clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   1 cpc   :   0 
-cpi   :   1 cpse  :   0 dec   :   0 eor   :   0 fmul  :   0 fmuls :   0 
+clc   :   0 clh   :   0 cli   :   1 cln   :   0 clr   :   0 cls   :   0 
+clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
+cpi   :   1 cpse  :   0 dec   :   1 eor   :   0 fmul  :   0 fmuls :   0 
 fmulsu:   0 icall :   0 ijmp  :   0 in    :   1 inc   :   2 jmp   :   2 
-ld    :   0 ldd   :   0 ldi   :  13 lds   :   0 lpm   :   0 lsl   :   0 
+ld    :   0 ldd   :   0 ldi   :  11 lds   :   0 lpm   :   0 lsl   :   0 
 lsr   :   0 mov   :   0 movw  :   0 mul   :   0 muls  :   0 mulsu :   0 
-neg   :   0 nop   :   0 or    :   0 ori   :   0 out   :  12 pop   :   0 
-push  :   0 rcall :   0 ret   :   1 reti  :   0 rjmp  :   1 rol   :   0 
-ror   :   0 sbc   :   0 sbci  :   0 sbi   :   1 sbic  :   0 sbis  :   0 
-sbiw  :   0 sbr   :   0 sbrc  :   0 sbrs  :   1 sec   :   0 seh   :   0 
-sei   :   0 sen   :   0 ser   :   0 ses   :   0 set   :   0 sev   :   0 
-sez   :   0 sleep :   0 spm   :   0 st    :   0 std   :   0 sts   :   3 
+neg   :   0 nop   :   0 or    :   0 ori   :   0 out   :  10 pop   :   0 
+push  :   0 rcall :   0 ret   :   1 reti  :   1 rjmp  :   1 rol   :   0 
+ror   :   0 sbc   :   0 sbci  :   0 sbi   :   0 sbic  :   0 sbis  :   2 
+sbiw  :   0 sbr   :   0 sbrc  :   0 sbrs  :   0 sec   :   0 seh   :   0 
+sei   :   1 sen   :   0 ser   :   0 ses   :   0 set   :   0 sev   :   0 
+sez   :   0 sleep :   0 spm   :   0 st    :   0 std   :   0 sts   :   5 
 sub   :   0 subi  :   0 swap  :   0 tst   :   0 wdr   :   0 
-Instructions used: 16 out of 113 (14.2%)
+Instructions used: 18 out of 113 (15.9%)
 
 "ATmega328P" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000072     98     16    114   32768   0.3%
+[.cseg] 0x000000 0x000076    106      0    106   32768   0.3%
 [.dseg] 0x000100 0x000100      0      0      0    2048   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    1024   0.0%
 

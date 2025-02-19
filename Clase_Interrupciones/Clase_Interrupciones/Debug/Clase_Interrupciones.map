@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_23068\Prelab2_micros_23068\main.asm Tue Feb 11 17:56:24 2025
+AVRASM ver. 2.2.8  C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Clase_Interrupciones\Clase_Interrupciones\main.asm Thu Feb 13 16:10:25 2025
 
 
 EQU  SIGNATURE_000 0000001e
@@ -695,8 +695,20 @@ EQU  ACIaddr      0000002e
 EQU  TWIaddr      00000030
 EQU  SPMRaddr     00000032
 EQU  INT_VECTORS_SIZE 00000034
-CSEG DIS          00000000
-CSEG SETUP        0000000c
-CSEG INIT_TMR0    00000034
-CSEG MAIN_LOOP    00000020
-CSEG OVERFLOW     00000030
+CSEG START        0000002a
+CSEG TMR0_ISR     00000080
+CSEG DIS          00000022
+CSEG SETUP        0000002e
+CSEG MAIN_LOOP    00000041
+CSEG CONTADOR     0000004d
+CSEG DELAY        0000006f
+CSEG RS1          00000053
+CSEG RR1          00000061
+CSEG OVERF1       00000057
+CSEG suma         0000005a
+CSEG UNDERF1      00000065
+CSEG resta        00000068
+CSEG subdelay1    00000070
+CSEG subdelay2    00000074
+CSEG subdelay3    00000078
+CSEG subdelay4    0000007c

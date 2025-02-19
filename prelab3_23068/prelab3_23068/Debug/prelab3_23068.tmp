@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prelab3_23068\prelab3_23068\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prelab3_23068\prelab3_23068\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prelab3_23068\prelab3_23068\Debug\prelab3_23068.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>prelab3_23068.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>prelab3_23068.map</FILE>
+  <FILE>prelab3_23068.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <START><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prelab3_23068\prelab3_23068\main.asm</FILE><LINE>8</LINE></START>
+  <PINCHANGEC_ISR><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prelab3_23068\prelab3_23068\main.asm</FILE><LINE>63</LINE></PINCHANGEC_ISR>
+  <SETUP><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prelab3_23068\prelab3_23068\main.asm</FILE><LINE>15</LINE></SETUP>
+  <MAIN_LOOP><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prelab3_23068\prelab3_23068\main.asm</FILE><LINE>47</LINE></MAIN_LOOP>
+  <DELAY><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prelab3_23068\prelab3_23068\main.asm</FILE><LINE>55</LINE></DELAY>
+  <subdelay1><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prelab3_23068\prelab3_23068\main.asm</FILE><LINE>57</LINE></subdelay1>
+ </LABELS>
+</ASSEMBLER_INFO>

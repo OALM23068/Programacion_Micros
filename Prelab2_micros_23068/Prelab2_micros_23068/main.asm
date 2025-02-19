@@ -9,7 +9,7 @@
 .CSEG
 .ORG 0x00
 
-
+DIS: .DB 0x3F,0x05,0x5B,0x4F,0x65,0x6E,0x7E,0x07,0x7F,0x67,0x77,0x7F,0x3A,0x3F,0x7A,0x72
 
 //Configuración de la pila
 LDI R16, LOW(RAMEND)
@@ -36,16 +36,23 @@ SETUP:
 	STS UCSR0B, R16
 
 // Definimos valores
-	LDI R17,0x00
+	LDI R18,0x00
 	LDI R19,0x0F
 	LDI R20, 0x00
 
-//Definimos el estado inicial de los botones
-	LDI R21,0x7F
+//Leer botones
+LDI R16,0x00
 
+//contadores
+LDI R17,0x00
+LDI R18,0x00
+
+//Estado inicial de los botones
+LDI R21,0x7F
 
 //bucle 
 MAIN_LOOP:
+	OUT PORTB, R18
 	IN R16, TIFR0 // Leer registro de interrupci n de TIMER 0?
 	SBRS R16, TOV0 // Salta si el bit 0 est "set" (TOV0 bit)?
 	RJMP MAIN_LOOP // Reiniciar loop
@@ -56,17 +63,15 @@ MAIN_LOOP:
 	CPI R20, 10 // R20 = 10 after 100ms (since TCNT0 is set to 10 ms)
 	BRNE MAIN_LOOP
 	CLR R20
-	CP R17, R19
+	CP R18, R19
 	BRBS 1, OVERFLOW
-	INC R17
-	OUT PORTB, R17
+	INC R18
 	JMP MAIN_LOOP
 
 OVERFLOW:
-	LDI R17,0x00
-	OUT PORTB, R17
+	LDI R18,0x00
+	OUT PORTB, R18
 	JMP MAIN_LOOP
-
 
 INIT_TMR0:
 	LDI R16, (1<<CS01) | (1<<CS00)

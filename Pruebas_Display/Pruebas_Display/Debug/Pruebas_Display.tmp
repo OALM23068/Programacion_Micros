@@ -1,0 +1,43 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.INC</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\Debug\Pruebas_Display.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Pruebas_Display.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Pruebas_Display.map</FILE>
+  <FILE>Pruebas_Display.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <SETUP><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</FILE><LINE>19</LINE></SETUP>
+  <DIS><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</FILE><LINE>41</LINE></DIS>
+  <INICIO><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</FILE><LINE>44</LINE></INICIO>
+  <DELAY><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</FILE><LINE>98</LINE></DELAY>
+  <RS1><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</FILE><LINE>72</LINE></RS1>
+  <RR1><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</FILE><LINE>85</LINE></RR1>
+  <OVERFLOW><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</FILE><LINE>67</LINE></OVERFLOW>
+  <OVERF1><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</FILE><LINE>77</LINE></OVERF1>
+  <suma><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</FILE><LINE>81</LINE></suma>
+  <UNDERF1><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</FILE><LINE>90</LINE></UNDERF1>
+  <resta><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</FILE><LINE>94</LINE></resta>
+  <subdelay1><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</FILE><LINE>100</LINE></subdelay1>
+  <subdelay2><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</FILE><LINE>105</LINE></subdelay2>
+  <subdelay3><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</FILE><LINE>110</LINE></subdelay3>
+  <subdelay4><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</FILE><LINE>115</LINE></subdelay4>
+  <INIT_TMR0><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Pruebas_Display\Pruebas_Display\main.asm</FILE><LINE>122</LINE></INIT_TMR0>
+ </LABELS>
+</ASSEMBLER_INFO>

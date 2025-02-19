@@ -23,9 +23,10 @@
   <FILE>Prelab2_micros_23068.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
+  <DIS><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_23068\Prelab2_micros_23068\main.asm</FILE><LINE>12</LINE></DIS>
   <SETUP><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_23068\Prelab2_micros_23068\main.asm</FILE><LINE>21</LINE></SETUP>
-  <INIT_TMR0><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_23068\Prelab2_micros_23068\main.asm</FILE><LINE>71</LINE></INIT_TMR0>
-  <MAIN_LOOP><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_23068\Prelab2_micros_23068\main.asm</FILE><LINE>48</LINE></MAIN_LOOP>
-  <OVERFLOW><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_23068\Prelab2_micros_23068\main.asm</FILE><LINE>65</LINE></OVERFLOW>
+  <INIT_TMR0><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_23068\Prelab2_micros_23068\main.asm</FILE><LINE>68</LINE></INIT_TMR0>
+  <MAIN_LOOP><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_23068\Prelab2_micros_23068\main.asm</FILE><LINE>46</LINE></MAIN_LOOP>
+  <OVERFLOW><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\Prelab2_micros_23068\Prelab2_micros_23068\main.asm</FILE><LINE>63</LINE></OVERFLOW>
  </LABELS>
 </ASSEMBLER_INFO>

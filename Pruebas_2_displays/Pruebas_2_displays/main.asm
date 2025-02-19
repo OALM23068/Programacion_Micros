@@ -1,0 +1,92 @@
+;
+; Pruebas_2_displays.asm
+;
+; Created: 2/18/2025 9:21:52 AM
+; Author : oscar
+;
+
+.include "M328PDEF.inc"
+.cseg
+.org 0x0000
+	JMP MAIN_LOOP
+.org 0x0008
+	JMP PINCHANGEC_ISR
+
+//Configuración de la pila
+LDI R16, LOW(RAMEND)
+OUT SPL, R16 // Cargar 0xff a SPL
+LDI R16, HIGH(RAMEND)
+OUT SPH, R16 // Cargar 0x08 a SPH
+
+SETUP:
+	CLI
+	LDI R16, (1 << CLKPCE)
+	STS CLKPCE, R16
+	LDI R16, 0b00000100
+	STS CLKPR,R16
+
+	LDI R16, (1 << PCIE1)
+	STS PCICR, R16
+	LDI R16, (1 << PCINT9)|(1 << PCINT8)
+	STS PCMSK1, R16
+
+	
+	LDI R16,0x00
+	OUT PORTD, R16
+	OUT PORTB, R16
+	STS UCSR0B, R16
+	OUT DDRC,R16
+	LDI R16,0xFF
+	OUT PORTC, R16
+	OUT DDRB,R16
+	OUT DDRD, R16
+	
+	SEI
+
+// Definimos registros
+//Contador
+	LDI R16,0x00
+//Leer pines
+	LDI R17,0x00
+	LDI R18,0x00
+
+; Replace with your application code
+MAIN_LOOP:
+	OUT PORTB,R16
+	RJMP MAIN_LOOP
+
+DELAY:
+LDI R31,0x00
+subdelay1:
+INC R31
+CPI R31,0x00
+BRNE subdelay1
+LDI R31,0x00
+subdelay2:
+INC R31
+CPI R31,0x00
+BRNE subdelay2
+LDI R31,0x00
+subdelay3:
+INC R31
+CPI R31,0x00
+BRNE subdelay3
+LDI R31,0x00
+subdelay4:
+INC R31
+CPI R31,0x00
+BRNE subdelay4
+RET
+
+PINCHANGEC_ISR:
+	IN R17, PINC
+	CP R17,R18
+	BRBS 1, REBOTE
+	SBIS PINC,0
+	INC R16
+	SBIS PINC,1
+	DEC R16
+	ANDI R16,0x0F
+	MOV R18,R17
+REBOTE:
+RETI
