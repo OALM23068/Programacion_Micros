@@ -24,18 +24,22 @@
  </OUTPUT_FILES>
  <LABELS>
   <START><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>19</LINE></START>
-  <PINCHANGEC_ISR><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>129</LINE></PINCHANGEC_ISR>
-  <TMR0_ISR><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>144</LINE></TMR0_ISR>
+  <PINCHANGEC_ISR><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>164</LINE></PINCHANGEC_ISR>
+  <TMR0_ISR><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>179</LINE></TMR0_ISR>
   <DIS><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>17</LINE></DIS>
   <SETUP><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>26</LINE></SETUP>
-  <MAIN_LOOP><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>76</LINE></MAIN_LOOP>
-  <DELAY><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>121</LINE></DELAY>
-  <CONTADOR><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>104</LINE></CONTADOR>
-  <CERO><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>112</LINE></CERO>
-  <DECENAS><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>92</LINE></DECENAS>
-  <CERO2><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>117</LINE></CERO2>
-  <DISPLAY><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>95</LINE></DISPLAY>
-  <subdelay1><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>123</LINE></subdelay1>
-  <REBOTE><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>141</LINE></REBOTE>
+  <MAIN_LOOP><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>79</LINE></MAIN_LOOP>
+  <DELAY><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>156</LINE></DELAY>
+  <CONTADOR><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>130</LINE></CONTADOR>
+  <CERO><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>139</LINE></CERO>
+  <DECENAS><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>121</LINE></DECENAS>
+  <CERO2><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>144</LINE></CERO2>
+  <CENTENAS><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>124</LINE></CENTENAS>
+  <CERO3><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>148</LINE></CERO3>
+  <MILLARES><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>127</LINE></MILLARES>
+  <CERO4><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>152</LINE></CERO4>
+  <DISPLAY><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>135</LINE></DISPLAY>
+  <subdelay1><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>158</LINE></subdelay1>
+  <REBOTE><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm</FILE><LINE>176</LINE></REBOTE>
  </LABELS>
 </ASSEMBLER_INFO>

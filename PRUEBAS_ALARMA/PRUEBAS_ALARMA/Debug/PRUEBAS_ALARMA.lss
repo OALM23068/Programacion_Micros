@@ -1,0 +1,1033 @@
+
+AVRASM ver. 2.2.8  C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm Wed Feb 26 19:30:54 2025
+
+[builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m329Pdef.inc'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc'
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(47): warning: Preprocessor: Redefinition of macro '__PART_NAME__'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(49): error: Invalid redefinition of 'SIGNATURE_000'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(50): error: Invalid redefinition of 'SIGNATURE_001'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(51): error: Invalid redefinition of 'SIGNATURE_002'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(60): error: Invalid redefinition of 'UDR0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(61): error: Invalid redefinition of 'UBRR0L'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(62): error: Invalid redefinition of 'UBRR0H'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(63): error: Invalid redefinition of 'UCSR0C'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(64): error: Invalid redefinition of 'UCSR0B'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(65): error: Invalid redefinition of 'UCSR0A'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(72): error: Invalid redefinition of 'ASSR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(74): error: Invalid redefinition of 'OCR2A'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(75): error: Invalid redefinition of 'TCNT2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(77): error: Invalid redefinition of 'TCCR2A'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(78): error: Invalid redefinition of 'OCR1BL'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(79): error: Invalid redefinition of 'OCR1BH'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(80): error: Invalid redefinition of 'OCR1AL'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(81): error: Invalid redefinition of 'OCR1AH'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(82): error: Invalid redefinition of 'ICR1L'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(83): error: Invalid redefinition of 'ICR1H'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(84): error: Invalid redefinition of 'TCNT1L'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(85): error: Invalid redefinition of 'TCNT1H'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(86): error: Invalid redefinition of 'TCCR1C'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(87): error: Invalid redefinition of 'TCCR1B'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(88): error: Invalid redefinition of 'TCCR1A'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(89): error: Invalid redefinition of 'DIDR1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(90): error: Invalid redefinition of 'DIDR0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(91): error: Invalid redefinition of 'ADMUX'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(92): error: Invalid redefinition of 'ADCSRB'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(93): error: Invalid redefinition of 'ADCSRA'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(94): error: Invalid redefinition of 'ADCH'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(95): error: Invalid redefinition of 'ADCL'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(96): error: Invalid redefinition of 'TIMSK2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(97): error: Invalid redefinition of 'TIMSK1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(98): error: Invalid redefinition of 'TIMSK0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(99): error: Invalid redefinition of 'PCMSK1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(101): error: Invalid redefinition of 'PCMSK0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(102): error: Invalid redefinition of 'EICRA'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(104): error: Invalid redefinition of 'OSCCAL'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(105): error: Invalid redefinition of 'PRR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(106): error: Invalid redefinition of 'CLKPR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(107): error: Invalid redefinition of 'WDTCSR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(108): error: Invalid redefinition of 'SREG'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(109): error: Invalid redefinition of 'SPL'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(110): error: Invalid redefinition of 'SPH'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(111): error: Invalid redefinition of 'SPMCSR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(112): error: Invalid redefinition of 'MCUCR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(113): error: Invalid redefinition of 'MCUSR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(114): error: Invalid redefinition of 'SMCR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(115): error: Invalid redefinition of 'ACSR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(116): error: Invalid redefinition of 'SPDR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(117): error: Invalid redefinition of 'SPSR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(118): error: Invalid redefinition of 'SPCR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(119): error: Invalid redefinition of 'GPIOR2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(120): error: Invalid redefinition of 'GPIOR1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(122): error: Invalid redefinition of 'OCR0A'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(123): error: Invalid redefinition of 'TCNT0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(125): error: Invalid redefinition of 'TCCR0A'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(126): error: Invalid redefinition of 'GTCCR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(127): error: Invalid redefinition of 'EEARH'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(128): error: Invalid redefinition of 'EEARL'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(129): error: Invalid redefinition of 'EEDR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(130): error: Invalid redefinition of 'EECR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(131): error: Invalid redefinition of 'GPIOR0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(132): error: Invalid redefinition of 'EIMSK'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(133): error: Invalid redefinition of 'EIFR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(135): error: Invalid redefinition of 'TIFR2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(136): error: Invalid redefinition of 'TIFR1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(137): error: Invalid redefinition of 'TIFR0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(138): error: Invalid redefinition of 'PORTD'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(139): error: Invalid redefinition of 'DDRD'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(140): error: Invalid redefinition of 'PIND'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(141): error: Invalid redefinition of 'PORTC'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(142): error: Invalid redefinition of 'DDRC'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(143): error: Invalid redefinition of 'PINC'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(144): error: Invalid redefinition of 'PORTB'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(145): error: Invalid redefinition of 'DDRB'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(146): error: Invalid redefinition of 'PINB'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(163): error: Invalid redefinition of 'MPCM0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(164): error: Invalid redefinition of 'U2X0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(165): error: Invalid redefinition of 'UPE0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(166): error: Invalid redefinition of 'DOR0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(167): error: Invalid redefinition of 'FE0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(168): error: Invalid redefinition of 'UDRE0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(169): error: Invalid redefinition of 'TXC0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(170): error: Invalid redefinition of 'RXC0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(173): error: Invalid redefinition of 'TXB80'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(174): error: Invalid redefinition of 'RXB80'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(175): error: Invalid redefinition of 'UCSZ02'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(176): error: Invalid redefinition of 'TXEN0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(177): error: Invalid redefinition of 'RXEN0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(178): error: Invalid redefinition of 'UDRIE0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(179): error: Invalid redefinition of 'TXCIE0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(180): error: Invalid redefinition of 'RXCIE0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(183): error: Invalid redefinition of 'UCPOL0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(184): error: Invalid redefinition of 'UCSZ00'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(186): error: Invalid redefinition of 'UCSZ01'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(188): error: Invalid redefinition of 'USBS0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(189): error: Invalid redefinition of 'UPM00'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(190): error: Invalid redefinition of 'UPM01'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(192): error: Invalid redefinition of 'UMSEL0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(281): error: Invalid redefinition of 'TOIE1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(282): error: Invalid redefinition of 'OCIE1A'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(283): error: Invalid redefinition of 'OCIE1B'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(284): error: Invalid redefinition of 'ICIE1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(287): error: Invalid redefinition of 'TOV1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(288): error: Invalid redefinition of 'OCF1A'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(289): error: Invalid redefinition of 'OCF1B'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(290): error: Invalid redefinition of 'ICF1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(293): error: Invalid redefinition of 'WGM10'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(294): error: Invalid redefinition of 'WGM11'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(295): error: Invalid redefinition of 'COM1B0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(296): error: Invalid redefinition of 'COM1B1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(297): error: Invalid redefinition of 'COM1A0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(298): error: Invalid redefinition of 'COM1A1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(301): error: Invalid redefinition of 'CS10'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(302): error: Invalid redefinition of 'CS11'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(303): error: Invalid redefinition of 'CS12'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(304): error: Invalid redefinition of 'WGM12'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(305): error: Invalid redefinition of 'WGM13'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(306): error: Invalid redefinition of 'ICES1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(307): error: Invalid redefinition of 'ICNC1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(310): error: Invalid redefinition of 'FOC1B'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(311): error: Invalid redefinition of 'FOC1A'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(315): error: Invalid redefinition of 'TSM'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(320): error: Invalid redefinition of 'TOIE2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(322): error: Invalid redefinition of 'OCIE2A'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(326): error: Invalid redefinition of 'TOV2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(327): error: Invalid redefinition of 'OCF2A'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(331): error: Invalid redefinition of 'WGM20'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(332): error: Invalid redefinition of 'WGM21'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(335): error: Invalid redefinition of 'COM2A0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(336): error: Invalid redefinition of 'COM2A1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(339): error: Invalid redefinition of 'CS20'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(340): error: Invalid redefinition of 'CS21'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(341): error: Invalid redefinition of 'CS22'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(344): error: Invalid redefinition of 'FOC2A'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(347): error: Invalid redefinition of 'TCNT2_0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(348): error: Invalid redefinition of 'TCNT2_1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(349): error: Invalid redefinition of 'TCNT2_2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(350): error: Invalid redefinition of 'TCNT2_3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(351): error: Invalid redefinition of 'TCNT2_4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(352): error: Invalid redefinition of 'TCNT2_5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(353): error: Invalid redefinition of 'TCNT2_6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(354): error: Invalid redefinition of 'TCNT2_7'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(381): error: Invalid redefinition of 'TCN2UB'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(382): error: Invalid redefinition of 'AS2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(383): error: Invalid redefinition of 'EXCLK'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(387): error: Invalid redefinition of 'PSR2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(393): error: Invalid redefinition of 'MUX0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(394): error: Invalid redefinition of 'MUX1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(395): error: Invalid redefinition of 'MUX2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(396): error: Invalid redefinition of 'MUX3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(397): error: Invalid redefinition of 'ADLAR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(398): error: Invalid redefinition of 'REFS0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(399): error: Invalid redefinition of 'REFS1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(402): error: Invalid redefinition of 'ADPS0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(403): error: Invalid redefinition of 'ADPS1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(404): error: Invalid redefinition of 'ADPS2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(405): error: Invalid redefinition of 'ADIE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(406): error: Invalid redefinition of 'ADIF'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(407): error: Invalid redefinition of 'ADATE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(408): error: Invalid redefinition of 'ADSC'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(409): error: Invalid redefinition of 'ADEN'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(412): error: Invalid redefinition of 'ADTS0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(413): error: Invalid redefinition of 'ADTS1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(414): error: Invalid redefinition of 'ADTS2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(415): error: Invalid redefinition of 'ACME'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(418): error: Invalid redefinition of 'ADCH0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(419): error: Invalid redefinition of 'ADCH1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(420): error: Invalid redefinition of 'ADCH2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(421): error: Invalid redefinition of 'ADCH3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(422): error: Invalid redefinition of 'ADCH4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(423): error: Invalid redefinition of 'ADCH5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(424): error: Invalid redefinition of 'ADCH6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(425): error: Invalid redefinition of 'ADCH7'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(428): error: Invalid redefinition of 'ADCL0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(429): error: Invalid redefinition of 'ADCL1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(430): error: Invalid redefinition of 'ADCL2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(431): error: Invalid redefinition of 'ADCL3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(432): error: Invalid redefinition of 'ADCL4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(433): error: Invalid redefinition of 'ADCL5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(434): error: Invalid redefinition of 'ADCL6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(435): error: Invalid redefinition of 'ADCL7'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(438): error: Invalid redefinition of 'ADC0D'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(439): error: Invalid redefinition of 'ADC1D'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(440): error: Invalid redefinition of 'ADC2D'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(441): error: Invalid redefinition of 'ADC3D'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(442): error: Invalid redefinition of 'ADC4D'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(443): error: Invalid redefinition of 'ADC5D'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(448): error: Invalid redefinition of 'ACIS0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(449): error: Invalid redefinition of 'ACIS1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(450): error: Invalid redefinition of 'ACIC'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(451): error: Invalid redefinition of 'ACIE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(452): error: Invalid redefinition of 'ACI'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(453): error: Invalid redefinition of 'ACO'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(454): error: Invalid redefinition of 'ACBG'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(455): error: Invalid redefinition of 'ACD'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(458): error: Invalid redefinition of 'AIN0D'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(459): error: Invalid redefinition of 'AIN1D'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(464): error: Invalid redefinition of 'PORTB0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(465): error: Invalid redefinition of 'PB0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(466): error: Invalid redefinition of 'PORTB1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(467): error: Invalid redefinition of 'PB1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(468): error: Invalid redefinition of 'PORTB2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(469): error: Invalid redefinition of 'PB2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(470): error: Invalid redefinition of 'PORTB3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(471): error: Invalid redefinition of 'PB3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(472): error: Invalid redefinition of 'PORTB4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(473): error: Invalid redefinition of 'PB4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(474): error: Invalid redefinition of 'PORTB5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(475): error: Invalid redefinition of 'PB5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(476): error: Invalid redefinition of 'PORTB6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(477): error: Invalid redefinition of 'PB6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(478): error: Invalid redefinition of 'PORTB7'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(479): error: Invalid redefinition of 'PB7'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(482): error: Invalid redefinition of 'DDB0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(483): error: Invalid redefinition of 'DDB1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(484): error: Invalid redefinition of 'DDB2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(485): error: Invalid redefinition of 'DDB3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(486): error: Invalid redefinition of 'DDB4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(487): error: Invalid redefinition of 'DDB5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(488): error: Invalid redefinition of 'DDB6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(489): error: Invalid redefinition of 'DDB7'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(492): error: Invalid redefinition of 'PINB0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(493): error: Invalid redefinition of 'PINB1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(494): error: Invalid redefinition of 'PINB2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(495): error: Invalid redefinition of 'PINB3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(496): error: Invalid redefinition of 'PINB4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(497): error: Invalid redefinition of 'PINB5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(498): error: Invalid redefinition of 'PINB6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(499): error: Invalid redefinition of 'PINB7'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(504): error: Invalid redefinition of 'PORTC0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(505): error: Invalid redefinition of 'PC0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(506): error: Invalid redefinition of 'PORTC1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(507): error: Invalid redefinition of 'PC1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(508): error: Invalid redefinition of 'PORTC2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(509): error: Invalid redefinition of 'PC2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(510): error: Invalid redefinition of 'PORTC3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(511): error: Invalid redefinition of 'PC3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(512): error: Invalid redefinition of 'PORTC4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(513): error: Invalid redefinition of 'PC4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(514): error: Invalid redefinition of 'PORTC5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(515): error: Invalid redefinition of 'PC5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(516): error: Invalid redefinition of 'PORTC6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(517): error: Invalid redefinition of 'PC6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(520): error: Invalid redefinition of 'DDC0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(521): error: Invalid redefinition of 'DDC1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(522): error: Invalid redefinition of 'DDC2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(523): error: Invalid redefinition of 'DDC3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(524): error: Invalid redefinition of 'DDC4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(525): error: Invalid redefinition of 'DDC5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(526): error: Invalid redefinition of 'DDC6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(529): error: Invalid redefinition of 'PINC0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(530): error: Invalid redefinition of 'PINC1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(531): error: Invalid redefinition of 'PINC2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(532): error: Invalid redefinition of 'PINC3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(533): error: Invalid redefinition of 'PINC4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(534): error: Invalid redefinition of 'PINC5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(535): error: Invalid redefinition of 'PINC6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(540): error: Invalid redefinition of 'PORTD0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(541): error: Invalid redefinition of 'PD0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(542): error: Invalid redefinition of 'PORTD1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(543): error: Invalid redefinition of 'PD1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(544): error: Invalid redefinition of 'PORTD2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(545): error: Invalid redefinition of 'PD2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(546): error: Invalid redefinition of 'PORTD3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(547): error: Invalid redefinition of 'PD3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(548): error: Invalid redefinition of 'PORTD4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(549): error: Invalid redefinition of 'PD4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(550): error: Invalid redefinition of 'PORTD5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(551): error: Invalid redefinition of 'PD5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(552): error: Invalid redefinition of 'PORTD6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(553): error: Invalid redefinition of 'PD6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(554): error: Invalid redefinition of 'PORTD7'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(555): error: Invalid redefinition of 'PD7'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(558): error: Invalid redefinition of 'DDD0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(559): error: Invalid redefinition of 'DDD1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(560): error: Invalid redefinition of 'DDD2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(561): error: Invalid redefinition of 'DDD3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(562): error: Invalid redefinition of 'DDD4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(563): error: Invalid redefinition of 'DDD5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(564): error: Invalid redefinition of 'DDD6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(565): error: Invalid redefinition of 'DDD7'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(568): error: Invalid redefinition of 'PIND0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(569): error: Invalid redefinition of 'PIND1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(570): error: Invalid redefinition of 'PIND2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(571): error: Invalid redefinition of 'PIND3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(572): error: Invalid redefinition of 'PIND4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(573): error: Invalid redefinition of 'PIND5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(574): error: Invalid redefinition of 'PIND6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(575): error: Invalid redefinition of 'PIND7'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(580): error: Invalid redefinition of 'TOIE0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(581): error: Invalid redefinition of 'OCIE0A'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(585): error: Invalid redefinition of 'TOV0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(586): error: Invalid redefinition of 'OCF0A'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(590): error: Invalid redefinition of 'WGM00'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(591): error: Invalid redefinition of 'WGM01'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(594): error: Invalid redefinition of 'COM0A0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(595): error: Invalid redefinition of 'COM0A1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(598): error: Invalid redefinition of 'CS00'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(599): error: Invalid redefinition of 'CS01'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(600): error: Invalid redefinition of 'CS02'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(603): error: Invalid redefinition of 'FOC0A'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(606): error: Invalid redefinition of 'TCNT0_0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(607): error: Invalid redefinition of 'TCNT0_1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(608): error: Invalid redefinition of 'TCNT0_2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(609): error: Invalid redefinition of 'TCNT0_3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(610): error: Invalid redefinition of 'TCNT0_4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(611): error: Invalid redefinition of 'TCNT0_5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(612): error: Invalid redefinition of 'TCNT0_6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(613): error: Invalid redefinition of 'TCNT0_7'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(637): error: Invalid redefinition of 'PSR10'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(643): error: Invalid redefinition of 'ISC00'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(644): error: Invalid redefinition of 'ISC01'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(649): error: Invalid redefinition of 'INT0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(653): error: Invalid redefinition of 'INTF0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(657): error: Invalid redefinition of 'PCIE0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(658): error: Invalid redefinition of 'PCIE1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(659): error: Invalid redefinition of 'PCIE2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(672): error: Invalid redefinition of 'PCINT8'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(673): error: Invalid redefinition of 'PCINT9'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(674): error: Invalid redefinition of 'PCINT10'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(675): error: Invalid redefinition of 'PCINT11'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(676): error: Invalid redefinition of 'PCINT12'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(677): error: Invalid redefinition of 'PCINT13'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(678): error: Invalid redefinition of 'PCINT14'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(681): error: Invalid redefinition of 'PCINT0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(682): error: Invalid redefinition of 'PCINT1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(683): error: Invalid redefinition of 'PCINT2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(684): error: Invalid redefinition of 'PCINT3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(685): error: Invalid redefinition of 'PCINT4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(686): error: Invalid redefinition of 'PCINT5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(687): error: Invalid redefinition of 'PCINT6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(688): error: Invalid redefinition of 'PCINT7'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(691): error: Invalid redefinition of 'PCIF0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(692): error: Invalid redefinition of 'PCIF1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(693): error: Invalid redefinition of 'PCIF2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(698): error: Invalid redefinition of 'SPDR0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(699): error: Invalid redefinition of 'SPDR1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(700): error: Invalid redefinition of 'SPDR2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(701): error: Invalid redefinition of 'SPDR3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(702): error: Invalid redefinition of 'SPDR4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(703): error: Invalid redefinition of 'SPDR5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(704): error: Invalid redefinition of 'SPDR6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(705): error: Invalid redefinition of 'SPDR7'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(708): error: Invalid redefinition of 'SPI2X'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(709): error: Invalid redefinition of 'WCOL'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(710): error: Invalid redefinition of 'SPIF'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(713): error: Invalid redefinition of 'SPR0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(714): error: Invalid redefinition of 'SPR1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(715): error: Invalid redefinition of 'CPHA'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(716): error: Invalid redefinition of 'CPOL'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(717): error: Invalid redefinition of 'MSTR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(718): error: Invalid redefinition of 'DORD'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(719): error: Invalid redefinition of 'SPE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(720): error: Invalid redefinition of 'SPIE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(725): error: Invalid redefinition of 'WDP0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(726): error: Invalid redefinition of 'WDP1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(727): error: Invalid redefinition of 'WDP2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(728): error: Invalid redefinition of 'WDE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(729): error: Invalid redefinition of 'WDCE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(737): error: Invalid redefinition of 'SREG_C'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(738): error: Invalid redefinition of 'SREG_Z'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(739): error: Invalid redefinition of 'SREG_N'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(740): error: Invalid redefinition of 'SREG_V'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(741): error: Invalid redefinition of 'SREG_S'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(742): error: Invalid redefinition of 'SREG_H'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(743): error: Invalid redefinition of 'SREG_T'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(744): error: Invalid redefinition of 'SREG_I'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(747): error: Invalid redefinition of 'CAL0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(748): error: Invalid redefinition of 'CAL1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(749): error: Invalid redefinition of 'CAL2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(750): error: Invalid redefinition of 'CAL3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(751): error: Invalid redefinition of 'CAL4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(752): error: Invalid redefinition of 'CAL5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(753): error: Invalid redefinition of 'CAL6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(754): error: Invalid redefinition of 'CAL7'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(757): error: Invalid redefinition of 'CLKPS0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(758): error: Invalid redefinition of 'CLKPS1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(759): error: Invalid redefinition of 'CLKPS2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(760): error: Invalid redefinition of 'CLKPS3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(761): error: Invalid redefinition of 'CLKPCE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(765): error: Invalid redefinition of 'SPMEN'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(766): error: Invalid redefinition of 'PGERS'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(767): error: Invalid redefinition of 'PGWRT'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(768): error: Invalid redefinition of 'BLBSET'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(769): error: Invalid redefinition of 'RWWSRE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(771): error: Invalid redefinition of 'RWWSB'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(772): error: Invalid redefinition of 'SPMIE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(775): error: Invalid redefinition of 'IVCE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(776): error: Invalid redefinition of 'IVSEL'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(777): error: Invalid redefinition of 'PUD'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(778): error: Invalid redefinition of 'BODSE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(779): error: Invalid redefinition of 'BODS'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(782): error: Invalid redefinition of 'PORF'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(783): error: Invalid redefinition of 'EXTRF'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(785): error: Invalid redefinition of 'BORF'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(786): error: Invalid redefinition of 'WDRF'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(789): error: Invalid redefinition of 'SE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(790): error: Invalid redefinition of 'SM0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(791): error: Invalid redefinition of 'SM1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(792): error: Invalid redefinition of 'SM2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(795): error: Invalid redefinition of 'GPIOR20'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(796): error: Invalid redefinition of 'GPIOR21'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(797): error: Invalid redefinition of 'GPIOR22'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(798): error: Invalid redefinition of 'GPIOR23'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(799): error: Invalid redefinition of 'GPIOR24'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(800): error: Invalid redefinition of 'GPIOR25'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(801): error: Invalid redefinition of 'GPIOR26'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(802): error: Invalid redefinition of 'GPIOR27'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(805): error: Invalid redefinition of 'GPIOR10'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(806): error: Invalid redefinition of 'GPIOR11'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(807): error: Invalid redefinition of 'GPIOR12'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(808): error: Invalid redefinition of 'GPIOR13'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(809): error: Invalid redefinition of 'GPIOR14'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(810): error: Invalid redefinition of 'GPIOR15'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(811): error: Invalid redefinition of 'GPIOR16'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(812): error: Invalid redefinition of 'GPIOR17'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(815): error: Invalid redefinition of 'GPIOR00'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(816): error: Invalid redefinition of 'GPIOR01'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(817): error: Invalid redefinition of 'GPIOR02'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(818): error: Invalid redefinition of 'GPIOR03'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(819): error: Invalid redefinition of 'GPIOR04'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(820): error: Invalid redefinition of 'GPIOR05'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(821): error: Invalid redefinition of 'GPIOR06'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(822): error: Invalid redefinition of 'GPIOR07'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(825): error: Invalid redefinition of 'PRADC'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(826): error: Invalid redefinition of 'PRUSART0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(827): error: Invalid redefinition of 'PRSPI'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(828): error: Invalid redefinition of 'PRTIM1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(850): error: Invalid redefinition of 'EEDR0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(851): error: Invalid redefinition of 'EEDR1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(852): error: Invalid redefinition of 'EEDR2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(853): error: Invalid redefinition of 'EEDR3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(854): error: Invalid redefinition of 'EEDR4'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(855): error: Invalid redefinition of 'EEDR5'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(856): error: Invalid redefinition of 'EEDR6'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(857): error: Invalid redefinition of 'EEDR7'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(860): error: Invalid redefinition of 'EERE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(863): error: Invalid redefinition of 'EERIE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(870): error: Invalid redefinition of 'LB1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(871): error: Invalid redefinition of 'LB2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(872): error: Invalid redefinition of 'BLB01'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(873): error: Invalid redefinition of 'BLB02'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(874): error: Invalid redefinition of 'BLB11'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(875): error: Invalid redefinition of 'BLB12'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(880): error: Invalid redefinition of 'CKSEL0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(881): error: Invalid redefinition of 'CKSEL1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(882): error: Invalid redefinition of 'CKSEL2'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(883): error: Invalid redefinition of 'CKSEL3'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(884): error: Invalid redefinition of 'SUT0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(885): error: Invalid redefinition of 'SUT1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(886): error: Invalid redefinition of 'CKOUT'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(887): error: Invalid redefinition of 'CKDIV8'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(890): error: Invalid redefinition of 'BOOTRST'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(891): error: Invalid redefinition of 'BOOTSZ0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(892): error: Invalid redefinition of 'BOOTSZ1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(893): error: Invalid redefinition of 'EESAVE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(894): error: Invalid redefinition of 'WDTON'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(895): error: Invalid redefinition of 'SPIEN'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(897): error: Invalid redefinition of 'RSTDISBL'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(900): error: Invalid redefinition of 'BODLEVEL0'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(901): error: Invalid redefinition of 'BODLEVEL1'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(907): warning: .def: 'XH' redefinition (r27->r27)
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(907): warning: Register r27 already defined by the .DEF directive
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(908): warning: .def: 'XL' redefinition (r26->r26)
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(908): warning: Register r26 already defined by the .DEF directive
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(909): warning: .def: 'YH' redefinition (r29->r29)
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(909): warning: Register r29 already defined by the .DEF directive
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(910): warning: .def: 'YL' redefinition (r28->r28)
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(910): warning: Register r28 already defined by the .DEF directive
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(911): warning: .def: 'ZH' redefinition (r31->r31)
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(911): warning: Register r31 already defined by the .DEF directive
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(912): warning: .def: 'ZL' redefinition (r30->r30)
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(912): warning: Register r30 already defined by the .DEF directive
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(917): error: Invalid redefinition of 'FLASHEND'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(918): error: Invalid redefinition of 'IOEND'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(919): error: Invalid redefinition of 'SRAM_START'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(920): error: Invalid redefinition of 'SRAM_SIZE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(921): error: Invalid redefinition of 'RAMEND'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(922): error: Invalid redefinition of 'XRAMEND'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(923): error: Invalid redefinition of 'E2END'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(924): error: Invalid redefinition of 'EEPROMEND'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(925): error: Invalid redefinition of 'EEADRBITS'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(934): error: Invalid redefinition of 'NRWW_START_ADDR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(935): error: Invalid redefinition of 'NRWW_STOP_ADDR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(936): error: Invalid redefinition of 'RWW_START_ADDR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(937): error: Invalid redefinition of 'RWW_STOP_ADDR'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(938): error: Invalid redefinition of 'PAGESIZE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(939): error: Invalid redefinition of 'FIRSTBOOTSTART'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(940): error: Invalid redefinition of 'SECONDBOOTSTART'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(941): error: Invalid redefinition of 'THIRDBOOTSTART'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(942): error: Invalid redefinition of 'FOURTHBOOTSTART'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(943): error: Invalid redefinition of 'SMALLBOOTSTART'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(944): error: Invalid redefinition of 'LARGEBOOTSTART'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(949): error: Invalid redefinition of 'INT0addr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(951): error: Invalid redefinition of 'PCI0addr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(952): error: Invalid redefinition of 'PCI1addr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(957): error: Invalid redefinition of 'OVF2addr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(958): error: Invalid redefinition of 'ICP1addr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(959): error: Invalid redefinition of 'OC1Aaddr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(960): error: Invalid redefinition of 'OC1Baddr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(961): error: Invalid redefinition of 'OVF1addr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(964): error: Invalid redefinition of 'OVF0addr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(965): error: Invalid redefinition of 'SPIaddr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(966): error: Invalid redefinition of 'URXCaddr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(967): error: Invalid redefinition of 'UDREaddr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(968): error: Invalid redefinition of 'UTXCaddr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(969): error: Invalid redefinition of 'ADCCaddr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(970): error: Invalid redefinition of 'ERDYaddr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(971): error: Invalid redefinition of 'ACIaddr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(973): error: Invalid redefinition of 'SPMRaddr'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc(975): error: Invalid redefinition of 'INT_VECTORS_SIZE'
+C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\PRUEBAS_ALARMA\PRUEBAS_ALARMA\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc' included form here

@@ -1,0 +1,65 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\Debug\prueba_1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>prueba_1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>prueba_1.map</FILE>
+  <FILE>prueba_1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <START><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>16</LINE></START>
+  <PINCHANGEC_ISR><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>233</LINE></PINCHANGEC_ISR>
+  <TMR0_ISR><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>288</LINE></TMR0_ISR>
+  <DIS><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>23</LINE></DIS>
+  <MESES><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>24</LINE></MESES>
+  <SETUP><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>26</LINE></SETUP>
+  <MAIN_LOOP><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>90</LINE></MAIN_LOOP>
+  <APAGADO><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>101</LINE></APAGADO>
+  <ALARMA><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>105</LINE></ALARMA>
+  <FECHA><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>103</LINE></FECHA>
+  <RELOJ><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>99</LINE></RELOJ>
+  <M_RELOJ><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>118</LINE></M_RELOJ>
+  <M_APAGAR><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>108</LINE></M_APAGAR>
+  <M_FECHA><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>217</LINE></M_FECHA>
+  <M_ALARMA><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>155</LINE></M_ALARMA>
+  <ALARMA_CERO1><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>120</LINE></ALARMA_CERO1>
+  <ALARMA_MINS_UNIDADES2><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>161</LINE></ALARMA_MINS_UNIDADES2>
+  <ALARMA_CERO2><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>124</LINE></ALARMA_CERO2>
+  <ALARMA_MINS_DECENAS><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>164</LINE></ALARMA_MINS_DECENAS>
+  <ALARMA_CERO3><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>128</LINE></ALARMA_CERO3>
+  <ALARMA_MINS_DECENAS2><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>167</LINE></ALARMA_MINS_DECENAS2>
+  <ALARMA_CERO4><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>131</LINE></ALARMA_CERO4>
+  <ALARMA_HORAS_UNIDADES><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>170</LINE></ALARMA_HORAS_UNIDADES>
+  <ALARMA_CERO5><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>134</LINE></ALARMA_CERO5>
+  <ALARMA_HORAS_UNIDADES2><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>173</LINE></ALARMA_HORAS_UNIDADES2>
+  <ALARMA_CERO6><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>138</LINE></ALARMA_CERO6>
+  <REINICIO><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>150</LINE></REINICIO>
+  <ALARMA_HORAS_DECENAS><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>176</LINE></ALARMA_HORAS_DECENAS>
+  <ALARMA_CERO7><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>144</LINE></ALARMA_CERO7>
+  <MOSTRAR><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>179</LINE></MOSTRAR>
+  <DELAY><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>225</LINE></DELAY>
+  <subdelay1><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>227</LINE></subdelay1>
+  <CONF_ALARM><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>243</LINE></CONF_ALARM>
+  <CONF_FECHA><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>262</LINE></CONF_FECHA>
+  <HORAS><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>255</LINE></HORAS>
+  <MINUTOS><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>249</LINE></MINUTOS>
+  <GUARDAR_ALARMA><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>273</LINE></GUARDAR_ALARMA>
+  <REGISTRO2><FILE>C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\prueba_1\prueba_1\main.asm</FILE><LINE>296</LINE></REGISTRO2>
+ </LABELS>
+</ASSEMBLER_INFO>

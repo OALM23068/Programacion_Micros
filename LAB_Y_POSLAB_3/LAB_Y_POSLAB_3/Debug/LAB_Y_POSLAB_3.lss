@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm Tue Feb 18 23:39:46 2025
+AVRASM ver. 2.2.8  C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm Mon Feb 24 23:57:40 2025
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc'
 C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_Y_POSLAB_3\main.asm(7): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc'
@@ -1040,9 +1040,9 @@ C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_
                                  .org 0x0000
 000000 940c 002a                 	JMP START
                                  .org 0x0008
-000008 940c 007d                 	JMP PINCHANGEC_ISR
+000008 940c 009d                 	JMP PINCHANGEC_ISR
                                  .org 0x0020
-000020 940c 0088                 	JMP TMR0_ISR
+000020 940c 00a8                 	JMP TMR0_ISR
                                  
                                  
 000022 053f
@@ -1063,6 +1063,7 @@ C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_
                                  
                                  SETUP:
 00002e 94f8                      	CLI
+                                 
 00002f e800                      	LDI R16, (1 << CLKPCE)
 000030 9300 0061                 	STS CLKPR, R16
 000032 e004                      	LDI R16, 0b00000100
@@ -1086,7 +1087,7 @@ C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_
 000043 b90b                      	OUT PORTD, R16
 000044 b905                      	OUT PORTB, R16
 000045 9300 00c1                 	STS UCSR0B, R16
-000047 e00c                      	LDI R16,0x0C
+000047 e30c                      	LDI R16,0x3C
 000048 b907                      	OUT DDRC,R16
 000049 ef0f                      	LDI R16,0xFF
 00004a b908                      	OUT PORTC, R16
@@ -1097,13 +1098,15 @@ C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_
                                  
                                  //Contador
 00004e e000                      	LDI R16,0x00
-00004f ef1f                      	LDI R17,0xFF
+00004f e010                      	LDI R17,0x00
 000050 e030                      	LDI R19,0x00
+000051 e050                      	LDI R21,0x00
+000052 e0a0                      	LDI R26,0x00
                                  // Valor display
-000051 e020                      	LDI R18,0x00
+000053 e020                      	LDI R18,0x00
                                  
                                  // Valor contador interrupciones
-000052 e060                      	LDI R22, 0x00
+000054 e060                      	LDI R22, 0x00
                                  
                                  
                                  // Iniciamos solo un display
@@ -1112,78 +1115,110 @@ C:\Users\oscar\OneDrive\Documents\GitHub\Programacion_Micros\LAB_Y_POSLAB_3\LAB_
                                  
                                  ; Replace with your application code
                                  MAIN_LOOP:
-000053 9842                      	CBI PORTC, 2
-000054 9843                      	CBI PORTC, 3
-000055 b92b                      	OUT PORTD, R18
-000056 9a43                      	SBI PORTC, 3
-000057 940e 0078                 	CALL DELAY
-000059 9843                      	CBI PORTC,3
-00005a b95b                      	OUT PORTD, R21
-00005b 9a42                      	SBI PORTC, 2
-00005c 940e 0078                 	CALL DELAY
-00005e 3644                      	CPI R20, 100
-00005f f471                      	BRNE CONTADOR
-000060 2744                      	CLR R20
-000061 9513                      	INC R17
-000062 301a                      	CPI R17,0x0A
-000063 f079                      	BRBS 1, CERO
+000055 e0f0                      	LDI ZH, HIGH(DIS << 1)
+000056 e4e4                      	LDI ZL, LOW(DIS << 1)
+000057 0fe1                      	ADD ZL,R17
+000058 9124                      	LPM R18, Z
+000059 9842                      	CBI PORTC, 2
+00005a 9843                      	CBI PORTC, 3
+00005b 9844                      	CBI PORTC, 4
+00005c 9845                      	CBI PORTC, 5
+00005d b92b                      	OUT PORTD, R18
+00005e 9a42                      	SBI PORTC, 2
+00005f 940e 0098                 	CALL DELAY
+000061 9842                      	CBI PORTC,2
+000062 e0f0                      	LDI ZH, HIGH(DIS << 1)
+000063 e4e4                      	LDI ZL, LOW(DIS << 1)
+000064 0fe3                      	ADD ZL,R19
+000065 9124                      	LPM R18, Z
+000066 b92b                      	OUT PORTD, R18
+000067 9a43                      	SBI PORTC, 3
+000068 940e 0098                 	CALL DELAY
+00006a 9843                      	CBI PORTC, 3
+00006b e0f0                      	LDI ZH, HIGH(DIS << 1)
+00006c e4e4                      	LDI ZL, LOW(DIS << 1)
+00006d 0fe5                      	ADD ZL,R21
+00006e 9124                      	LPM R18, Z
+00006f b92b                      	OUT PORTD, R18
+000070 9a44                      	SBI PORTC, 4
+000071 940e 0098                 	CALL DELAY
+000073 9844                      	CBI PORTC, 4
+000074 e0f0                      	LDI ZH, HIGH(DIS << 1)
+000075 e4e4                      	LDI ZL, LOW(DIS << 1)
+000076 0fea                      	ADD ZL,R26
+000077 9124                      	LPM R18, Z
+000078 b92b                      	OUT PORTD, R18
+000079 9a45                      	SBI PORTC, 5
+00007a 940e 0098                 	CALL DELAY
+00007c 3644                      	CPI R20, 100
+00007d f451                      	BRNE CONTADOR
+00007e 2744                      	CLR R20
+00007f 9513                      	INC R17
+000080 301a                      	CPI R17,0x0A
+000081 f059                      	BRBS 1, CERO
                                  DECENAS:
-000064 3036                      	CPI R19,0x06
-000065 f081                      	BRBS 1, CERO2
-                                 DISPLAY:
-000066 e0f0                      	LDI ZH, HIGH(DIS << 1)
-000067 e4e4                      	LDI ZL, LOW(DIS << 1)
-000068 0fe1                      	ADD ZL,R17
-000069 9124                      	LPM R18, Z
-00006a e0f0                      	LDI ZH, HIGH(DIS << 1)
-00006b e4e4                      	LDI ZL, LOW(DIS << 1)
-00006c 0fe3                      	ADD ZL,R19
-00006d 9154                      	LPM R21, Z
+000082 3036                      	CPI R19,0x06
+000083 f061                      	BRBS 1, CERO2
+                                 CENTENAS:
+000084 305a                      	CPI R21,0x0A
+000085 f069                      	BRBS 1, CERO3
+                                 MILLARES:
+000086 30a6                      	CPI R26,0x06
+000087 f071                      	BRBS 1, CERO4
                                  CONTADOR:
-00006e b173                      	IN R23,PINB
-00006f 7f70                      	ANDI R23,0xF0
-000070 0f70                      	ADD R23, R16
-000071 b975                      	OUT PORTB, R23
-000072 cfe0                      	RJMP MAIN_LOOP
+000088 b173                      	IN R23,PINB
+000089 7f70                      	ANDI R23,0xF0
+00008a 0f70                      	ADD R23, R16
+00008b b975                      	OUT PORTB, R23
+                                 DISPLAY:
+00008c cfc8                      	RJMP MAIN_LOOP
                                  
                                  
                                  CERO:
-000073 e010                      	LDI R17, 0x00
-000074 9533                      	INC R19
-000075 cfee                      	RJMP DECENAS
+00008d e010                      	LDI R17, 0x00
+00008e 9533                      	INC R19
+00008f cff2                      	RJMP DECENAS
                                  
                                  CERO2:
-000076 e030                      	LDI R19, 0x00
-000077 cfee                      	RJMP DISPLAY
+000090 e030                      	LDI R19, 0x00
+000091 9553                      	INC R21
+000092 cff1                      	RJMP CENTENAS
+                                 CERO3:
+000093 e050                      	LDI R21,0x00
+000094 95a3                      	INC R26
+000095 cff0                      	RJMP MILLARES
+                                 CERO4:
+000096 e0a0                      	LDI R26,0x00
+000097 cff4                      	RJMP DISPLAY
                                  
                                  DELAY:
-000078 e0f0                      LDI R31,0x00
+000098 e0f0                      LDI R31,0x00
                                  subdelay1:
-000079 95f3                      INC R31
-00007a 30f0                      CPI R31,0x00
-00007b f7e9                      BRNE subdelay1
-00007c 9508                      RET
+000099 95f3                      INC R31
+00009a 30f0                      CPI R31,0x00
+00009b f7e9                      BRNE subdelay1
+00009c 9508                      RET
                                  
                                  PINCHANGEC_ISR:
-00007d b186                      	IN R24, PINC
-00007e 7083                      	ANDI R24,0b00000011
-00007f 1789                      	CP R24,R25
-000080 f031                      	BRBS 1, REBOTE
-000081 9b30                      	SBIS PINC,0
-000082 9503                      	INC R16
-000083 9b31                      	SBIS PINC,1
-000084 950a                      	DEC R16
-000085 700f                      	ANDI R16,0x0F
-000086 2f98                      	MOV R25,R24
+00009d b186                      	IN R24, PINC
+00009e 7083                      	ANDI R24,0b00000011
+00009f 1789                      	CP R24,R25
+0000a0 f031                      	BRBS 1, REBOTE
+0000a1 9b30                      	SBIS PINC,0
+0000a2 9503                      	INC R16
+0000a3 9b31                      	SBIS PINC,1
+0000a4 950a                      	DEC R16
+0000a5 700f                      	ANDI R16,0x0F
+0000a6 2f98                      	MOV R25,R24
                                  	
                                  REBOTE:
-000087 9518                      RETI
+0000a7 9518                      RETI
                                  
                                  TMR0_ISR:
-000088 e664                      	LDI R22, 100
-000089 bd66                      	OUT TCNT0, R22
-00008a 9543                      	INC R20
-00008b 9518                      RETI
+0000a8 e664                      	LDI R22, 100
+0000a9 bd66                      	OUT TCNT0, R22
+0000aa 9543                      	INC R20
+0000ab 9518                      RETI
 
 
 RESOURCE USE INFORMATION
@@ -1201,29 +1236,29 @@ counted separately from r26..r31 here.
 .dseg memory usage only counts static data declared with .byte
 
 "ATmega328P" register use summary:
-x  :   0 y  :   0 z  :   2 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
+x  :   0 y  :   0 z  :   4 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  33 r17:   5 r18:   3 r19:   5 r20:   3 
-r21:   2 r22:   3 r23:   4 r24:   4 r25:   2 r26:   0 r27:   0 r28:   0 
-r29:   0 r30:   4 r31:   5 
-Registers used: 13 out of 35 (37.1%)
+r13:   0 r14:   0 r15:   0 r16:  33 r17:   5 r18:   9 r19:   5 r20:   3 
+r21:   5 r22:   3 r23:   4 r24:   4 r25:   2 r26:   5 r27:   0 r28:   0 
+r29:   0 r30:   8 r31:   7 
+Registers used: 14 out of 35 (40.0%)
 
 "ATmega328P" instruction use summary:
-.lds  :   0 .sts  :   0 adc   :   0 add   :   3 adiw  :   0 and   :   0 
-andi  :   3 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   3 
+.lds  :   0 .sts  :   0 adc   :   0 add   :   5 adiw  :   0 and   :   0 
+andi  :   3 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   5 
 brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
 brne  :   2 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
-brvs  :   0 bset  :   0 bst   :   0 call  :   2 cbi   :   3 cbr   :   0 
+brvs  :   0 bset  :   0 bst   :   0 call  :   4 cbi   :   7 cbr   :   0 
 clc   :   0 clh   :   0 cli   :   1 cln   :   0 clr   :   1 cls   :   0 
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   1 cpc   :   0 
-cpi   :   4 cpse  :   0 dec   :   1 eor   :   0 fmul  :   0 fmuls :   0 
-fmulsu:   0 icall :   0 ijmp  :   0 in    :   2 inc   :   5 jmp   :   3 
-ld    :   0 ldd   :   0 ldi   :  25 lds   :   0 lpm   :   4 lsl   :   0 
+cpi   :   6 cpse  :   0 dec   :   1 eor   :   0 fmul  :   0 fmuls :   0 
+fmulsu:   0 icall :   0 ijmp  :   0 in    :   2 inc   :   7 jmp   :   3 
+ld    :   0 ldd   :   0 ldi   :  33 lds   :   0 lpm   :   8 lsl   :   0 
 lsr   :   0 mov   :   1 movw  :   0 mul   :   0 muls  :   0 mulsu :   0 
-neg   :   0 nop   :   0 or    :   0 ori   :   0 out   :  14 pop   :   0 
-push  :   0 rcall :   0 ret   :   1 reti  :   2 rjmp  :   3 rol   :   0 
-ror   :   0 sbc   :   0 sbci  :   0 sbi   :   2 sbic  :   0 sbis  :   2 
+neg   :   0 nop   :   0 or    :   0 ori   :   0 out   :  16 pop   :   0 
+push  :   0 rcall :   0 ret   :   1 reti  :   2 rjmp  :   5 rol   :   0 
+ror   :   0 sbc   :   0 sbci  :   0 sbi   :   4 sbic  :   0 sbis  :   2 
 sbiw  :   0 sbr   :   0 sbrc  :   0 sbrs  :   0 sec   :   0 seh   :   0 
 sei   :   1 sen   :   0 ser   :   0 ses   :   0 set   :   0 sev   :   0 
 sez   :   0 sleep :   0 spm   :   0 st    :   0 std   :   0 sts   :   6 
@@ -1233,7 +1268,7 @@ Instructions used: 25 out of 113 (22.1%)
 "ATmega328P" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000118    208     16    224   32768   0.7%
+[.cseg] 0x000000 0x000158    272     16    288   32768   0.9%
 [.dseg] 0x000100 0x000100      0      0      0    2048   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    1024   0.0%
 
